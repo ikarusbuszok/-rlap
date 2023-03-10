@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="valid.js"></script>
+    <script src="success.js"></script>
+
+</head>
+<body>
+    <form  action="/action.php" onsubmit= "return validateForm()" method="get">validTeszt</form>
+        <input type="text" id="felhasználónév" name="user_name" value="user_name">
+        <label for="felhasználónév">Kérek egy felhasználónevet!</label><br>
+        <input type="password" id="jelszó" name="passw" value="passw">
+        <label for="jelszó">Kérek egy jelszót</label><br>
+        <input type="password" id="jelszóemlékeztető" name="passw" value="passw">
+        <label for="Jelszó">Kérem ismételje meg a jelszót!</label><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    
+</body>
+</html>
